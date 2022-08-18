@@ -10,9 +10,9 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/rockset/rockset-go-client)
+      - prefix(github.com/getlantern/rockset-go-client)
   goimports:
-    local-prefixes: github.com/rockset/rockset-go-client
+    local-prefixes: github.com/getlantern/rockset-go-client
 
 linters:
   enable:

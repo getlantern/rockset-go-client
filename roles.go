@@ -3,8 +3,8 @@ package rockset
 import (
 	"context"
 
-	"github.com/rockset/rockset-go-client/openapi"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 // CreateRole creates a new role

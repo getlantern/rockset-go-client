@@ -3,7 +3,7 @@ package option
 import (
 	"time"
 
-	"github.com/rockset/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/openapi"
 )
 
 type ListCollectionOptions struct {

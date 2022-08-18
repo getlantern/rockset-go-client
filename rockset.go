@@ -13,7 +13,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/rockset/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/openapi"
 )
 
 // DefaultAPIServer is the default Rockset API server to use
@@ -47,8 +47,11 @@ type RockClient struct {
 // Accessing the online database requires an API key and an API server to connect to,
 // which are provided by through the ROCKSET_APIKEY and ROCKSET_APISERVER environment variables.
 // If an API server isn't provided the DefaultAPIServer, is used.
+//
 //	c, err := rockset.NewClient()
+//
 // They can or explicitly using the WithAPIKey() and WithAPIServer() options.
+//
 //	c, err := rockset.NewClient(rockset.WithAPIKey("..."), rockset.WithAPIServer("..."))
 func NewClient(options ...RockOption) (*RockClient, error) {
 	cfg := openapi.NewConfiguration()

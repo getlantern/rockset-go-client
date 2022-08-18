@@ -7,8 +7,8 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/rockset/rockset-go-client/openapi"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 type Querier interface {

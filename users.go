@@ -3,7 +3,7 @@ package rockset
 import (
 	"context"
 
-	"github.com/rockset/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/openapi"
 )
 
 // https://docs.rockset.com/rest-api/#users

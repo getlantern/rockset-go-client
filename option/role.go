@@ -1,7 +1,7 @@
 package option
 
 import (
-	"github.com/rockset/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/openapi"
 )
 
 // RoleOptions is used to hold optional workspace settings

@@ -1,6 +1,6 @@
 package option
 
-import "github.com/rockset/rockset-go-client/openapi"
+import "github.com/getlantern/rockset-go-client/openapi"
 
 type QueryOption func(request *openapi.QueryRequestSql)
 

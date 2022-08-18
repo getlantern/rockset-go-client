@@ -7,7 +7,7 @@ import (
 
 	"github.com/seborama/govcr"
 
-	"github.com/rockset/rockset-go-client"
+	"github.com/getlantern/rockset-go-client"
 )
 
 // Use govcr to record API calls as fixtures and then replay them. Note that this will record your API key

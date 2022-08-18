@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/rockset/rockset-go-client"
+	"github.com/getlantern/rockset-go-client"
 )
 
 func TestRockClient_GetWorkspace(t *testing.T) {

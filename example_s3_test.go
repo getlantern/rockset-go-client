@@ -5,12 +5,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/rockset/rockset-go-client"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 // Example code to first create an S3 integration, then create a collection from the integration,
 // and finally clean up.
+//
 //nolint:funlen
 func Example_s3() {
 	ctx := context.TODO()

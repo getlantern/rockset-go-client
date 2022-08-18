@@ -5,8 +5,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/rockset/rockset-go-client/openapi"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 // https://docs.rockset.com/rest-api/#aliases

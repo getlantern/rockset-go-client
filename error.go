@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/rockset/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/openapi"
 )
 
 // Error is an error returned by the Rockset REST API.

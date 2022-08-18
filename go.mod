@@ -1,4 +1,4 @@
-module github.com/rockset/rockset-go-client
+module github.com/getlantern/rockset-go-client
 
 go 1.17
 
@@ -7,7 +7,7 @@ require (
 	github.com/rs/zerolog v1.26.1
 	github.com/seborama/govcr v4.5.0+incompatible
 	github.com/stretchr/testify v1.7.1
-	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a
+	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 )
 
 require (

@@ -3,8 +3,8 @@ package rockset
 import (
 	"context"
 
-	"github.com/rockset/rockset-go-client/openapi"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 // CreateAPIKey creates a new API key for the current user with the specified, with an optional role.

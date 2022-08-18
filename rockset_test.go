@@ -9,7 +9,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 
-	"github.com/rockset/rockset-go-client"
+	"github.com/getlantern/rockset-go-client"
 )
 
 // APIKeyEnvironmentVariableName is the environment variable name for the API key

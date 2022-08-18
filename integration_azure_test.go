@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/rockset/rockset-go-client"
-	"github.com/rockset/rockset-go-client/rocksettest"
+	"github.com/getlantern/rockset-go-client"
+	"github.com/getlantern/rockset-go-client/rocksettest"
 )
 
 var connectionString string

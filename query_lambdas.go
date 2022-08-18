@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rockset/rockset-go-client/openapi"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client/openapi"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 // LatestTag is the query lambda tag for the latest version.

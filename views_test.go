@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/rockset/rockset-go-client"
-	"github.com/rockset/rockset-go-client/option"
+	"github.com/getlantern/rockset-go-client"
+	"github.com/getlantern/rockset-go-client/option"
 )
 
 func TestListViews(t *testing.T) {
